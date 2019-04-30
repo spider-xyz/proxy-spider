@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+demo.py
+build
+logs
+eggs
+dbs
+project.egg-info
+twistd.pid
+scrapy.log
+.idea
+reptilian/images
