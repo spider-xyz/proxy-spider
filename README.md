@@ -24,5 +24,5 @@ git clone https://github.com/spider-xyz/proxy-spider.git
 
 ```shell
 pip3 install -r requirements.txt
-nohub python3 run.py >> /tmp/proxy.log 2>&1 &
+python3 run.py >> /tmp/proxy.log 2>&1 &
 ```
