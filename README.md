@@ -6,7 +6,11 @@
 
 * 支持版本: ![](https://img.shields.io/badge/Python-2.x-green.svg) ![](https://img.shields.io/badge/Python-3.x-blue.svg)
 
-* 测试地址: http://139.198.191.82:5000 (单机勿压)
+* 测试地址: (单机勿压)
+```shell
+http://139.198.191.82:5000/count
+http://139.198.191.82:5000/random
+```
 
 ### 下载安装
 
@@ -20,4 +24,5 @@ git clone https://github.com/spider-xyz/proxy-spider.git
 
 ```shell
 pip3 install -r requirements.txt
+nohub python3 run.py >> /tmp/proxy.log 2>&1 &
 ```
